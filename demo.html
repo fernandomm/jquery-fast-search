@@ -1,0 +1,117 @@
+<html>
+	<head>
+		<title>Jquery Fast Search Demo</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="jquery.fast-search.js"></script>
+
+		<script>
+			$(document).ready(function() {
+				$('#search').fastSearch({
+					searchElements: '#data-table tbody tr',
+					searchContainer: 'tr'
+				})
+
+				$('#search').focus()
+			})
+		</script>
+	</head>
+	<body>
+		<label for="search">Search for:</label>
+		<input type="text" name="search" id="search">
+
+		<table id="data-table">
+			<thead>
+				<tr>
+					<th>Iso Code</th>
+					<th>Country</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>AF</td>
+					<td>Afghanistan</td>
+				</tr>
+				<tr>
+					<td>AL</td>
+					<td>Albania</td>
+				</tr>
+				<tr>
+					<td>DZ</td>
+					<td>Algeria</td>
+				</tr>
+				<tr>
+					<td>AS</td>
+					<td>American Samoa</td>
+				</tr>
+				<tr>
+					<td>AD</td>
+					<td>Andorra</td>
+				</tr>
+				<tr>
+					<td>AO</td>
+					<td>Angola</td>
+				</tr>
+				<tr>
+					<td>AI</td>
+					<td>Anguilla</td>
+				</tr>
+				<tr>
+					<td>AQ</td>
+					<td>Antarctica</td>
+				</tr>
+				<tr>
+					<td>AG</td>
+					<td>Antigua and Barbuda</td>
+				</tr>
+				<tr>
+					<td>AR</td>
+					<td>Argentina</td>
+				</tr>
+				<tr>
+					<td>AM</td>
+					<td>Armenia</td>
+				</tr>
+				<tr>
+					<td>AW</td>
+					<td>Aruba</td>
+				</tr>
+				<tr>
+					<td>AU</td>
+					<td>Australia</td>
+				</tr>
+				<tr>
+					<td>AT</td>
+					<td>Austria</td>
+				</tr>
+				<tr>
+					<td>AZ</td>
+					<td>Azerbaijan</td>
+				</tr>
+				<tr>
+					<td>BS</td>
+					<td>Bahamas</td>
+				</tr>
+				<tr>
+					<td>BH</td>
+					<td>Bahrain</td>
+				</tr>
+				<tr>
+					<td>BD</td>
+					<td>Bangladesh</td>
+				</tr>
+				<tr>
+					<td>BB</td>
+					<td>Barbados</td>
+				</tr>
+				<tr>
+					<td>BY</td>
+					<td>Belarus</td>
+				</tr>
+				<tr>
+					<td>BE</td>
+					<td>Belgium</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
