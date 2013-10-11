@@ -14,7 +14,7 @@ Simply add jquery.fast-search.js to your page:
 
 ## Usage
 
-Check demo.html. It contains a fully working example.
+Check [demo.html](http://rawgithub.com/fernandomm/jquery-fast-search/master/demo.html). It contains a fully working example.
 
 ## Contributing
 
